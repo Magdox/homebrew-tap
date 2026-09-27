@@ -1,28 +1,28 @@
 class Magdox < Formula
   desc "Scans source code locally for security issues and reports findings to MAGDOX"
   homepage "https://magdox.io"
-  version "1.1.0"
+  version "1.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Magdox/magdox-cli/releases/download/v1.1.0/magdox_1.1.0_darwin_arm64.tar.gz"
-      sha256 "238ab3145031d2fa66e95b3ccc851d377a16a688336214a25fb3b572c9992922"
+      url "https://github.com/Magdox/magdox-cli/releases/download/v1.2/magdox_1.2.0_darwin_arm64.tar.gz"
+      sha256 "63de719caa30c268ff1d8916ad74dca51cb44338138038036973649f03cbd5e5"
     end
     on_intel do
-      url "https://github.com/Magdox/magdox-cli/releases/download/v1.1.0/magdox_1.1.0_darwin_amd64.tar.gz"
-      sha256 "586135880605632d50c32639dfb2b1ca3e46ccaf1c5230a3e548b23ea25e44c0"
+      url "https://github.com/Magdox/magdox-cli/releases/download/v1.2/magdox_1.2.0_darwin_amd64.tar.gz"
+      sha256 "f150f539d27226defd87fec8f97ad20430aa4e97ddaf12c8564456b2ec67e991"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Magdox/magdox-cli/releases/download/v1.1.0/magdox_1.1.0_linux_arm64.tar.gz"
-      sha256 "125b94a5e0c225d6587f03d9d55cd9cd392ed443e1054516ce17421cae2fa6a3"
+      url "https://github.com/Magdox/magdox-cli/releases/download/v1.2/magdox_1.2.0_linux_arm64.tar.gz"
+      sha256 "2a09c4f7993ea7d02a7b6f849d3cece6ee85a1f9794e372bb5519e7d078e2c4a"
     end
     on_intel do
-      url "https://github.com/Magdox/magdox-cli/releases/download/v1.1.0/magdox_1.1.0_linux_amd64.tar.gz"
-      sha256 "b2961bfb4daf51875575610d2fa2f1ea3877e97214d99cc39efeddb44d9c62a2"
+      url "https://github.com/Magdox/magdox-cli/releases/download/v1.2/magdox_1.2.0_linux_amd64.tar.gz"
+      sha256 "223ed02d397464c20458bee78dc28d23cec7577d2edad31452cd2009931746ca"
     end
   end
 
