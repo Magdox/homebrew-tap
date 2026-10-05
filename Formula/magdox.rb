@@ -7,22 +7,22 @@ class Magdox < Formula
   on_macos do
     on_arm do
       url "https://github.com/Magdox/magdox-cli/releases/download/v1.3/magdox_1.3.0_darwin_arm64.tar.gz"
-      sha256 "d8c21da61898aaae17fabe11400ff2c167a8f0a4c5935ca78286302ee0162ad7"
+      sha256 "f32fb511009c122ec36389e8ee210facdaed8612130bdfad0090c40f33b0710d"
     end
     on_intel do
       url "https://github.com/Magdox/magdox-cli/releases/download/v1.3/magdox_1.3.0_darwin_amd64.tar.gz"
-      sha256 "f5f5fafc1824e6a552dfa913d9f2e6d8423a5ea749325857c4009147b3eb0f46"
+      sha256 "e2cc97e7dfe19fa3757b77b9737010360124e6fbf9b41196cd432e282f6b88b2"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Magdox/magdox-cli/releases/download/v1.3/magdox_1.3.0_linux_arm64.tar.gz"
-      sha256 "e06040b8e7db0c796803e0c945ced98e58022881ba2ae70d039806d0ee7b30d8"
+      sha256 "5524d974196060d128919b747c4cf9d7e6a8e80b22620181ed46f9f882275223"
     end
     on_intel do
       url "https://github.com/Magdox/magdox-cli/releases/download/v1.3/magdox_1.3.0_linux_amd64.tar.gz"
-      sha256 "ba6a858428c7ea5e06228df8ae21a746a8bf5b98e8db3c7e32e181ffb912b998"
+      sha256 "3ac832bc2edcccace58f15ed67c84968c9e928f42876144fc44bc4736289d7be"
     end
   end
 
